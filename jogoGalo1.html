@@ -102,8 +102,7 @@ foi feito, o ligar o relógio, apenas quando há o registo dos jogadores, apenas
 Entretanto, foi mudado o nome dos jogadores, para player1 e player2, e o valor
 deles acomulado. Queremos ainda, fazer com que o jogo termine quando um
 dos dois jogadores vence a partida.
-# foi criada a função starTime, que controla o inicio do tempo, apenas quando
-o botão Começar, é acionado.-->
+Foi criada a função starTime, que controla o inicio do tempo, apenas quando o botão Começar, é acionado.-->
 </body>
 <script>
     let second = 0;
@@ -117,7 +116,7 @@ o botão Começar, é acionado.-->
         }, 1000);
     }
     /*
-    # Foi criada uma função para fazer com que o tabuleiro, definido como
+    Foi criada uma função para fazer com que o tabuleiro, definido como
     (jogo), apareça escondido no início do jogo, permitindo
     estar apenas visivel o espaço para registo dos jogadores, e o botão de
     Começar.Depois de escrever o nome de cada jogador, o jogo vai começar,
@@ -131,7 +130,7 @@ o botão Começar, é acionado.-->
         menu.hide()
     }
     /*
-    #com esta variável, é controlado o início da contagem do tempo, através
+    Com esta variável, é controlado o início da contagem do tempo, através
     do botão Começar. Quer dizer que ao fazermos o clic no botão, guardamos
     os nomes dos jogadores, fazemos o começo do tempo e fazemos aparecer
     o tabuleiro de jogo.
@@ -174,13 +173,14 @@ reduzimos a quantidade de código escrito. Também já atualizamos a função pa
 jogadorAtual, na medida em que as peças são colocadas no tabuleiro, pela ordem do jogador que tem a vez de jogar.
 Alternando entre o jogador que tem a vez e o jogador que joga depois. No tabuleiro, já aparece a possibilidade de jogar alternadamente.
 Criámos esta função, que sorteia o jogador que começa a jogar, aleatóriamente.*/
+    
     function sortearPrimeiroJogador () {
         let r = Math.random();
         if(r > 0.5) {
             return "X";
         }
-        return "O";
-    }
+            return "O";
+        }
     let jogadorAtual = "X";
     let numeroJogadas = 0;
     for (let i = 0; i < 9; i++) {
@@ -206,7 +206,7 @@ Criámos esta função, que sorteia o jogador que começa a jogar, aleatóriamen
     impedindo que se possa continuar a jogar, depois de um jogador vencer a partida.
     Incluí a possibilidade de mostrar os pontos no final de cada jogo.
     Incluí a possibilidade de o relógio recomeçar quando o tabuleiro é limpo.
-    Incluí a verificação do numero de rondas vencidas por cada jogador */
+    Incluí a verificação do número de rondas vencidas por cada jogador */
     function clearGrid () {
         $("#celula0").text("");
         $("#celula1").text("");
@@ -242,7 +242,7 @@ Criámos esta função, que sorteia o jogador que começa a jogar, aleatóriamen
 Aqui, definimos o código com a função que permite igualar três casas seguidas,
 originando a vitória do jogo por parte do jogador que consegue esse feito,
 primeiramente.
-É feita a verificação do conteudo das células, para verificar se é igual,
+É feita a verificação do conteúdo das células, para verificar se é igual,
 caso seja igual, o jogador com essa marca, ganha.
  */
     function jogada() {
