@@ -3,5 +3,5 @@
 - [ ] Jogo da Memória
 - [ ] Jogo quatro em Linha
 - [ ] Jogo de Basketball
-- [ ] Jogos 2 D
+- [ ] Jogos 2 D (projetos)
 
