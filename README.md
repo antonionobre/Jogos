@@ -1,7 +1,7 @@
 # Jogos
 - [ ] Jogo do Galo
-- [ ] Jogo da Memória
-- [ ] Jogo quatro em Linha
-- [ ] Jogo de Basketball
+- [ ] Jogo da Memória (projeto)
+- [ ] Jogo quatro em Linha (projeto)
+- [ ] Jogo de Basketball (projeto)
 - [ ] Jogos 2 D (projetos)
 
