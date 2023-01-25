@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+    .game {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    }
+
+
+    #personagem {
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    }
+
+/*adicionar o "infinite" no (quadrado), logo depois de 1s, para permitir a animação continua */
+
+    #quadrado {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: quadrado 1s infinite linear;
+    }
+
+    @keyframes quadrado {
+        0% { left: 480px;}
+        100% {left: -40px;}
+    }
+
+
+
+

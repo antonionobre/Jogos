@@ -1,0 +1,10 @@
+***Jogo de Bascket***
+
+Baseado do jogo do galo, retirando alguma parte de código e tentando perceber o que se pode aproveitar.
+
+# verificar a escolha do primeiro jogador a iniciar a partida, pelo numero aleatório mais alto.
+# colocação do botão para oincluir o nome dos jogadores.
+# procurar no jogo do dinossauro, o movimento e juntando o código do movimento aleatório de direção, como forma de 
+levar a bola a percorrer diferentes caminhos ou tragetórias mais retilineas.
+# procurar o código em <script>, para conseguir colocar integração dos butões com o html.
+#procurar no jogo do superMário a possibilidade de fazer um boneco mais animado com ajuda de css.
